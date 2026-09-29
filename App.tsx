@@ -5,6 +5,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
+
+      <image>Teste de erro oia</image>
+
+      <Image source=(require('../../app/assets/'))/>
       <StatusBar style="auto" />
     </View>
   );
